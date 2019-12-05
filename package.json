@@ -1,0 +1,18 @@
+{
+  "name": "discord-yearly-subs",
+  "description": "Discord.js bot to manage yearly subscriptions in your server",
+  "version": "1.0.0",
+  "author": "hacklover",
+  "homepage": "https://hacklover.net",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "dependencies": {
+    "debug": "~4.1.1",
+    "discord.js": "^11.5.1",
+    "express": "~4.17.1",
+    "http-errors": "~1.7.3",
+    "lowdb": "^1.0.0"
+  }
+}
