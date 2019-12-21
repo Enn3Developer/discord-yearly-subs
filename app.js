@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 const indexRouter = require('./routes');
 app.use('/', indexRouter);
 
-const discordModel = require('./models/discord.model');
+const discordModel = require('./models/discord_model');
 discordModel.initialize();
 
 // catch 404 and forward to error handler
