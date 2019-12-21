@@ -3,8 +3,8 @@
 This discord.js bot can help you to manage yearly subscriptions in your Discord server.
 
 ## Features
-- Add {yearlyRole} to users with a specific role
-- Remove {yearlyRole} from all users at the end of the year
+- Adds {yearlyRole} to users with a specific role
+- Removes {yearlyRole} from all users at the end of the year
 - Stats API at http://localhost:3000
 
 ## Quick start
@@ -53,7 +53,7 @@ module.exports = {
 - Right click on your Discord server, then **Copy ID**
 - Put your guild's id into `discordGuildId` in your config.js
 
-## Patreon
-You can use this bot with Patreon to automatically manage your yearly subscriptions in your Discord server.
+## Patreon integration
+You can use this bot in combination with Patreon to automatically manage yearly subscriptions in your Discord server.
 
-Just setup a Patreon tier that drops a specific role to new patrons and this bot will do the rest, allowing your users to stay in the server until the next year. Obviously, you have to set also some Discord permissions for these roles.
+Just setup a Patreon tier that drops a specific role to new patrons and this bot will do the rest, allowing your users to stay in the server until the next year. Obviously, you will have to set some Discord permissions for these roles.
